@@ -1,0 +1,9 @@
+.conteneur {
+    border-width:1px 2px 3px 2px;
+    border-style:solid dotted;
+    border-color:black rgb(38, 6, 78);
+    padding:0 10px;
+    }
+    .M{
+        color: rgb(230, 19, 19);
+    }

@@ -1,0 +1,50 @@
+
+   div.transbox{
+  
+    cursor: pointer;
+    width: 300px;
+    position:absolute;
+   color: white;
+   float:right;
+   border: 20px solid #f0eff1;
+ 
+   padding: 60px;
+
+   }
+   .m{
+   color: white;
+   }
+   
+    .b {
+
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin-left:100px;
+       
+    }
+    
+   .image{
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1100% ;
+    background-position:50% 50%;
+    width: 1350px;
+  
+
+
+   }
+   .card {
+    height: 300px;
+    width: 380px;
+    padding: 15px 32px;
+    margin-left: 850px; 
+}
+.label{
+    color: white;
+}

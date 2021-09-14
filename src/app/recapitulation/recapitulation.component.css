@@ -1,0 +1,29 @@
+.I {
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:400px;
+}
+.H{
+    color: rgb(230, 19, 19);
+}
+tab1{
+    border-collapse: double;
+    width: 400px;
+    border: 4px double rgb(2, 49, 51);
+    padding: 30px;
+    vertical-align: double;
+  }
+  tab1,th, td{
+    border: 2px double  rgb(2, 49, 51);
+    padding: 30px;
+    vertical-align:double;
+  }
+  thead{
+    color: rgb(2, 49, 51);
+}

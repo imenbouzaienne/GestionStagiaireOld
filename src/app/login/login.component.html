@@ -1,0 +1,43 @@
+<html>
+  <head> <meta charset="utf-8"> <title>Trainne Space</title>
+    <link href="login.component.css" rel="stylesheet"> 
+  </head>
+  
+        
+  
+<div  class="container">
+<div class ="row">
+            <div class ="col-5"> 
+              <div class ="image"> 
+              <img [src]="image" class="rounded float-right" alt="Espace TimeSheet Stagiaire" width="100%" >
+              </div>
+            </div>
+
+
+            <div class ="col-5">
+<form [formGroup]="loginForm" (ngSubmit)="onLoggedIn()">
+      <label class ="label"for="login"><b>Login</b></label>
+      <input type="text" placeholder="Enter Login" formControlName="login" name="login" [ngClass]="{ 'is-invalid':   f.login.errors }" />
+      <label class ="label" for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" formControlName="password" name="psw" [ngClass]="{ 'is-invalid':  f.password.errors }" />
+  
+    <div  class="b"  >
+      
+      <button class="btn btn-primary btn-sm" (click) =" onLoggedIn()" >Login</button>
+    </div>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+    <div class="container" style="background-color:#f1f1f1"></div>
+  </form>
+   </div>
+ 
+</div>
+</div>
+
+
+  </html>
+				
+	
+
+	
+	
+

@@ -1,0 +1,30 @@
+.Title{
+	color: rgb(12, 3, 90);
+	font-size: 80px;
+	text-align: left;
+}
+
+
+  
+  .image1 {
+
+    margin-right: 20px;
+       cursor: pointer;
+       width: 350px;
+    }
+
+       
+.IA {
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:100px;
+}
+
+
+
