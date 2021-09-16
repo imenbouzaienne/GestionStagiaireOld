@@ -1,70 +1,85 @@
-.Title{
-	color: rgb(12, 3, 90);
-	font-size: 80px;
-	text-align: left;
+#accueil-stagiaire {
+    height: 100%;
 }
-.main {
 
-    
+.Title {
+  color: black;
+  font-size: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.items {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    display: felx;
-    margin:20px;
-    margin-top:80px;
+    height: 500px;
 }
-.stagiaire {
 
-    display: felx;
-   flex-wrap: warp;
+.rounded-img {
+    border-radius: 50%;
+    width: 300px!important;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
 }
+
+.main {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+  margin-top: 80px;
+}
+
+.stagiaire {
+  display: felx;
+  flex-wrap: warp;
+}
+
 .image {
 
-margin-right: 20px;
-   cursor: pointer;
-   width: 350px;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 350px;
 }
-
-
-
-
 
 
 .I1 {
 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left:200px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 200px;
 }
+
 .I3 {
 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left:200px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 200px;
 }
-.container {
 
-    background-color: rgb(4, 80, 90);
-  
-}
+
 .I1 {
 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left:180px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 180px;
 }

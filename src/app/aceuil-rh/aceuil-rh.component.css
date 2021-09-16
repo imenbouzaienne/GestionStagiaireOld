@@ -1,48 +1,20 @@
+#accueil-rh {
+    height: 100%;
+}
+
 .Title{
 	color: rgb(12, 3, 90);
 	font-size: 80px;
 	text-align: left;
 }
-.main {
 
-    
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    display: felx;
-    margin:20px;
-    margin-top:80px;
-}
-.stagiaire {
-
-    display: felx;
-   flex-wrap: warp;
-}
 .image {
 
-margin-right: 20px;
    cursor: pointer;
    width: 350px;
 }
 
-
-
-
-
-
-.I1 {
-
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left:120px;
-}
 .container {
-
     border: none;
     color: white;
     padding: 15px 32px;
@@ -50,50 +22,23 @@ margin-right: 20px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left:150px;
-}
-.I2 {
-
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    margin-left:150px;
+    margin: 0;
 }
 
-.I3 {
-
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    margin-left:150px;
+.items {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 100px;
 }
-.I4 {
 
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    margin-left:150px;
+.items div {
+    justify-items: baseline;
 }
-.I5 {
 
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    margin-left:150px;
+img {
+    display: block;
+    margin: 0 auto;
 }
+

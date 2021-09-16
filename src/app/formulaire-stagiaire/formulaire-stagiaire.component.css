@@ -1,3 +1,13 @@
+#trainee-form {
+    background-color: white;
+    /*height: 100%;*/
+}
+
+form {
+    border: none;
+    padding: 15px;
+}
+
 .I {
 
     border: none;
@@ -11,9 +21,7 @@
 }
 .H{
     color: rgb(5, 131, 125);
-
-
-
+    margin-bottom: 20px;
 }
 
 
@@ -31,3 +39,16 @@
     border: solid black 1px;
 }
 .encadrer-un-contenu{ border: 1px solid black; padding: 5px; }
+
+div.col {
+    border-right: 1px solid white;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ .btns button {
+     width: 35%;
+ }

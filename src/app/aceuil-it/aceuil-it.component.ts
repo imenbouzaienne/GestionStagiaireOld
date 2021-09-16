@@ -9,18 +9,18 @@ import { Router } from '@angular/router';
 export class AceuilITComponent implements OnInit {
   img1: string ="assets/img/IT.png";
   constructor(
-    private router: Router) { 
+    private router: Router) {
   }
 
   ngOnInit()  {  }
 
   redirectionMateriel() {
-    
-    
-    this.router.navigate(['/LogistiqueEquipement']);
+
+
+    this.router.navigate(['LogistiqueEquipement']);
   }
 
-  
+
 
 
 }

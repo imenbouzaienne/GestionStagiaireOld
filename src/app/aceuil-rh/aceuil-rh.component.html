@@ -1,91 +1,41 @@
-<head>
-    
-    <link href="aceuil-rh.component.css" rel="stylesheet">
-   
-        <title>Espace Stagiaire</title> 
-        <style>
-            .row {
-              display:contents;
-            }
-            .col {
-              flex: 3; 
-              padding: 6em;
-              border: solid;
-            }
-          </style>
+<div id="accueil-rh">
 
-</head> 
-<body> 
-    <div class="Title">
-    <label for="Trainee Space"><h6></h6></label>
+  <div class="items">
+    <div class="col-3">
+      <img [src]="image1" alt="Espace Traine Form" class="rounded float-right" width=60%>
+      <div class="IM">
+        <button (click)="redirectionForm()" class="btn btn-primary btn-sm">TrainneForm</button>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <img [src]="image2" alt="Espace Timesheet Intern" class="rounded mx-auto d-block" width=60%>
+      <div class="IM">
+        <button (click)="redirectionTimesheetIntern()" class="btn btn-primary btn-sm">TimesheetIntern</button>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <img [src]="image3" alt="Espace TraineSpace" class="rounded float-left" width=100%>
+      <div class="IM">
+        <button (click)="redirectionTraineSpace()" class="btn btn-primary btn-sm">TraineSpace</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="items">
+    <div class="col-3">
+      <img [src]="image4" alt="Espace IT" class="rounded float-left" width=40%>
+      <div class="IM">
+        <button (click)="redirectionItDepartement()" class="btn btn-primary btn-sm">SpaceIT</button>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <img [src]="image5" alt="Espace Recapp" class="rounded float-left" width=60%>
+      <div class="IM">
+        <button (click)="redirectionRecapitulation()" class="btn btn-primary btn-sm">Recapitulation</button>
+      </div>
+    </div>
+  </div>
 </div>
-
-        
-
-    
-
-<div class="container">
- <div class="row">
-           
-
-     <div class="col-4">
-       
-        
-        <img [src]="image1" class="rounded float-right"  alt="Espace Traine Form" width=60% >
-            <div class="IM">
-               
-            <span ><button  class="btn btn-primary btn-sm" (click)= "redirectionForm()">TrainneForm</button></span>
-            </div>
-        </div>
-        <div class="col-4">
-       
-        
-            <img [src]="image2" class="rounded mx-auto d-block" alt="Espace Timesheet Intern" width=60%  >
-            <div class="IM">
-                <span ><button class="btn btn-primary btn-sm" (click)= "redirectionTimesheetIntern()">TimesheetIntern</button></span>
-            </div>
-        </div>
-        <div class="col-4">
-            <img [src]="image3" class="rounded float-left" alt="Espace TraineSpace" width=100% >
-            <div class="IM">
-                <span ><button  class="btn btn-primary btn-sm" (click)= "redirectionTraineSpace()">TraineSpace</button></span>
-            </div>
-        </div>
-        <div class="col-4">
-            <img [src]="image4" class="rounded float-left" alt="Espace IT" width=40%  >
-            <div class="IM">
-                <span   ><button class="btn btn-primary btn-sm" (click)= "redirectionItDepartement()">SpaceIT</button></span>
-        
-            </div>
-        </div>
-        <div class="col-4">
-            <img [src]="image5" class="rounded float-left" alt="Espace Recapp"width=60%  >
-            <div class="IM">
-                <span ><button  class="btn btn-primary btn-sm" (click)= "redirectionRecapitulation()">Recapitulation</button></span>
-        
-            </div>
-        </div>
-</div>
-<hr>
-</div>
-<footer class="container">
-<div>
- 
-</div>
-</footer>
-
-
-
-
-
-</body> 
-
-
-
- 
-
- 
-
-        
-  
-        

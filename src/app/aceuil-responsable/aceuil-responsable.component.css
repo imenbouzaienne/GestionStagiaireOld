@@ -1,3 +1,9 @@
+#acceuil-responsable {
+  height: 100%;
+  margin: 100px auto;
+}
+
+
 Title{
 	color: rgb(12, 3, 90);
 	font-size: 80px;
@@ -5,18 +11,18 @@ Title{
 }
 .image1{
     width: 50px;
-    
+
     margin-left:100px ;
     margin-right: 100px;
   }
 
   .image2{
     width: 50px;
-   
+
     margin-left:100px ;
     margin-right: 100px;
   }
-       
+
 .IA {
 
     border: none;
@@ -33,12 +39,12 @@ Title{
 .right-image{
     padding-left:0px;
     padding-right:0px;
-    
+
     }
 
     .left-image{
-    
+
      padding-right: 0px;
      padding-left: 0px;
-     
+
     }

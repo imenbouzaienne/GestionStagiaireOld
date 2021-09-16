@@ -1,63 +1,31 @@
-<head>
-    
-    <link href="aceuil-stagiaire.component.css" rel="stylesheet">
-   
-        <title>Espace Stagiaire</title> 
-        <style>
-            .row {
-              display: flex;
-            }
-            .col {
-              flex: 1; 
-              padding: 1em;
-              border: solid;
-            }
-          </style>
+<div id="accueil-stagiaire">
 
-</head> 
-<body> 
-    <div class="Title">
-    <label for="Trainee Space"><h6></h6></label>
-</div>
-<div class="container">
- <div class="row">
-     <div class="col-4">
-            <img [src]="myimage" class="rounded float-right"  alt="Espace TimeSheet Stagiaire" width=60% >
-            <div class="IM">
-               <button  class="btn btn-primary btn-sm" (click)= "redirectionTimesheet()">TimeSheet</button>
-            </div>
-        </div>
-        <div class="col-4">
-       
-        
-            <img [src]="image" class="rounded mx-auto d-block" alt="Espace Trainne Form"  width=69% >
-            <div class="IM">
-                <span  ><button  class="btn btn-primary btn-sm"  (click)= "redirectionTraineeForm()">TrainneForm</button></span>
-            </div>
-        </div>
-        <div class="col-4">
-       
-        
-            <img [src]="img" class="rounded float-left" alt="Espace Recapp"  width=60% >
-            <div class="IM">
-                <span  ><button  class="btn btn-primary btn-sm" (click)= "redirectionRecapitulation()">Recapitulation</button></span>
-            </div>
-        </div>
-  
-</div>
+  <div class="Title">
+    <span>Trainee Space</span>
+  </div>
+
+  <div class="items">
+    <div class="col-3">
+      <img style="width: 100%" [src]="myimage" class="rounded-img float-right" alt="Espace TimeSheet Stagiaire" width=60%>
+      <div style="width: 100%" class="IM">
+        <button class="btn btn-primary btn-sm" (click)="redirectionTimesheet()">TimeSheet</button>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <img style="width: 100%" [src]="image" class="rounded-img mx-auto d-block" alt="Espace Trainne Form" width=69%>
+      <div style="width: 100%" class="IM">
+        <span><button class="btn btn-primary btn-sm" (click)="redirectionTraineeForm()">TrainneForm</button></span>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <img style="width: 100%" [src]="img" class="rounded-img float-left" alt="Espace Recapp" width=60%>
+      <div style="width: 100%" class="IM">
+          <span><button class="btn btn-primary btn-sm"
+                        (click)="redirectionRecapitulation()">Recapitulation</button></span>
+      </div>
+    </div>
+  </div>
 
 </div>
-
-
-
-
-
-</body> 
-
-
-
- 
-
- 
-
-        

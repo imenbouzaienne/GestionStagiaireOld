@@ -10,21 +10,21 @@ export class AceuilResponsableComponent implements OnInit {
   image1: string ="assets/img/emptimesheet.jpg";
   image2: string ="assets/img/freesheet.jpg";
   constructor(
-    private router: Router) { 
+    private router: Router) {
   }
 
   ngOnInit()  {  }
 
   redirectionForm() {
-    
-    
-    this.router.navigate(['/Traine Form']);
+
+
+    this.router.navigate(['FormulaireStagiaire']);
   }
 
   redirectionTimesheetIntern() {
-    
-    
-    this.router.navigate(['/Timesheet Intern']);
+
+
+    this.router.navigate(['Timesheet']);
 }
 
 }
