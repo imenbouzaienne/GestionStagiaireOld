@@ -1,83 +1,77 @@
-<head> 
-  <link href="timesheet.component.css" rel="stylesheet">
-</head> 
-  
-  
+<div id="time-sheet">
   <div id="conteneur">
-<form>
-  <table>
-    <tr>
-      <td>Entite</td>
-      <td><input type="text" class="form-control" > </td>
-    </tr>
-    <tr>
-      <td>Encadrant</td>
-      <td><input type="text" class="form-control" > </td>
-    </tr>
-    <tr>
-      <td>Stagiaire</td>
-      <td><input type="text" class="form-control" > </td>
-    </tr>
-    <tr>
-      <td>Mois</td>
-      <td><input type="text" class="form-control" > </td>
-    </tr>
-  </table>
+    <form>
+      <table>
+        <tr>
+          <td class="label">Entite</td>
+          <td><input class="form-control" type="text"></td>
+        </tr>
+        <tr>
+          <td class="label">Encadrant</td>
+          <td><input class="form-control" type="text"></td>
+        </tr>
+        <tr>
+          <td class="label">Stagiaire</td>
+          <td><input class="form-control" type="text"></td>
+        </tr>
+        <tr>
+          <td class="label">Mois</td>
+          <td><input class="form-control" type="text"></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+
+  <form>
+
+    <div class="M"><U><h2>Rapport de Présence Par jour</h2></U></div>
+    <table>
+      <tr>
+        <td class="label">Date</td>
+        <td><input type="date"></td>
+      </tr>
+
+      <tr>
+        <td class="label">Presence sur site</td>
+        <td>
+          <select class="form-control">
+            <option>0</option>
+            <option>0.25</option>
+            <option>0.5</option>
+            <option>0.75</option>
+            <option>1</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="label">teletravail</td>
+        <td><select class="form-control exampleFormControlSelect1">
+          <option>0</option>
+          <option>0.25</option>
+          <option>0.5</option>
+          <option>0.75</option>
+          <option>1</option>
+
+        </select></td>
+
+      </tr>
+
+      <tr>
+        <td class="label">Absence</td>
+        <td><select class="form-control exampleFormControlSelect1">
+          <option>aucun</option>
+          <option>justifier</option>
+          <option>non justifier</option>
+        </select></td>
+        <td><input class="form-control exampleFormControlSelect1" placeholder="certif" type="file"></td>
+      </tr>
+    </table>
+
+    <div class="btns">
+      <button class="btn btn-primary btn-sm" id="btnSubmit" type="button">Enregistrer</button>
+      <button class="btn btn-primary btn-sm" id="btnCancel" type="button">Annuler</button>
+    </div>
   </form>
 </div>
-  <form>
-    
-    <div class="M"> <U><h2>Rapport de Présence Par jour</h2></U>  </div>
-        <table>
-          <tr>
-            <td>Date</td>
-            <td><input type="date"></td>
-          </tr>
-          <tr>
-            <td>Presence sur site </td>
-            <td><select class="form-control" id="exampleFormControlSelect1">
-              <option>0</option>
-              <option>0.25</option>
-              <option>0.5</option>
-              <option>0.75</option>
-              <option>1</option>
-  
-            </select></td>
-  
-          </tr>
-          <tr>
-            <td>teletravail </td>
-            <td><select class="form-control" id="exampleFormControlSelect1">
-              <option>0</option>
-              <option>0.25</option>
-              <option>0.5</option>
-              <option>0.75</option>
-              <option>1</option>
-  
-            </select></td>
-  
-          </tr>
-          <td>Absence</td>
-          <td><select class="form-control" id="exampleFormControlSelect1">
-            <option>aucun</option>
-            <option>justifier</option>
-            <option>non justifier</option></select></td>
-            <td>  <input type="file" class="form-control" placeholder="certif"></td>
-            <tr>
-              <td></td>
-              <td></td>
-              <td> <button type="button" id="btnSubmit" class="btn btn-primary btn-sm">Enregistrer</button>
-                <button type="button" id="btnCancel" class="btn btn-primary btn-sm">Valider</button></td>
-            </tr>
-        </table>
-
-
-        </form>
-    
-    
-      
-  
-  
-     
-  
-  
